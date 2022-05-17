@@ -35,5 +35,11 @@ print(chars)
 # ---------------------------------- Day 5 ----------------------------------
 # Exercise: the result should contains the keys of the given dictionary
 dictionary = {"one": 1, "two": 2, "three": 3}
-dict_keys = [keys for keys in dictionary.keys()]
+dict_keys = [key for key in dictionary.keys()]
 print(dict_keys)
+
+# ---------------------------------- Day 6 ----------------------------------
+# Doing above all these exercise using list()
+print(list(range(10)))
+print(list(string))
+print(list(dictionary))
