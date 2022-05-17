@@ -43,3 +43,21 @@ print(dict_keys)
 print(list(range(10)))
 print(list(string))
 print(list(dictionary))
+
+# ---------------------------------- Day 8 ----------------------------------
+# Exercise: rewriting given code below as list comprehension
+# values = []
+# for num in range(10, 23, 2):
+#     values.append(num % 13)
+values = [num % 13 for num in range(10, 23, 2)]
+print(values)
+
+# ---------------------------------- Day 9 ----------------------------------
+# Exercise: rewriting the loop below as a list comprehension
+# string = "I like pizza"
+# doubled = []
+# for char in string:
+#     doubled.append(2 * char)
+string1 = "I like pizza"
+doubled = [2 * char for char in string1]
+print(doubled)
