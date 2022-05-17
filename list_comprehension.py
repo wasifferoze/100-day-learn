@@ -27,7 +27,13 @@ int_list = [i for i in range(10)]
 print(int_list)
 
 # ---------------------------------- Day 4 ----------------------------------
-# Exercise: list contains integer from 0 to 9 using list comprehesnion
+# Exercise: the result should contain the characters of the string variable using list comprehesnion
 string = "Hello, world!"
 chars = [ch for ch in string]
 print(chars)
+
+# ---------------------------------- Day 5 ----------------------------------
+# Exercise: the result should contains the keys of the given dictionary
+dictionary = {"one": 1, "two": 2, "three": 3}
+dict_keys = [keys for keys in dictionary.keys()]
+print(dict_keys)
