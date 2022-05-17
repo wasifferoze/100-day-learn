@@ -61,3 +61,11 @@ print(values)
 string1 = "I like pizza"
 doubled = [2 * char for char in string1]
 print(doubled)
+
+# ---------------------------------- Day 10 ----------------------------------
+# Exercise: rewriting the loop below as a list comprehension
+# firsts = []
+# for word in "The quick brown fox jumps.".split():
+#     firsts.append(word[0])
+firsts = [word[0] for word in "The quick brown fox jumps.".split()]
+print(firsts)
