@@ -25,3 +25,9 @@ print("List compr. Numbers:", numbers)
 # Exercise: list contains integer from 0 to 9 using list comprehesnion
 int_list = [i for i in range(10)]
 print(int_list)
+
+# ---------------------------------- Day 4 ----------------------------------
+# Exercise: list contains integer from 0 to 9 using list comprehesnion
+string = "Hello, world!"
+chars = [ch for ch in string]
+print(chars)
