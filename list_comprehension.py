@@ -20,3 +20,8 @@ print("Vanilla Numbers:", numbers)
 
 numbers = [1 + i ** 2 for i in range(10)]
 print("List compr. Numbers:", numbers)
+
+# ---------------------------------- Day 3 ----------------------------------
+# Exercise: list contains integer from 0 to 9 using list comprehesnion
+int_list = [i for i in range(10)]
+print(int_list)
