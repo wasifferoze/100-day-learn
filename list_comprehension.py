@@ -69,3 +69,9 @@ print(doubled)
 #     firsts.append(word[0])
 firsts = [word[0] for word in "The quick brown fox jumps.".split()]
 print(firsts)
+
+# ---------------------------------- Day 11 ----------------------------------
+# Exercise: rewriting the loop below as a list comprehension
+numbers = [42, 73, 0, 16, 10]
+is_big = [num > 10 for num in numbers]
+print(is_big)
