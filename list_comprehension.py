@@ -75,3 +75,10 @@ print(firsts)
 numbers = [42, 73, 0, 16, 10]
 is_big = [num > 10 for num in numbers]
 print(is_big)
+
+# ---------------------------------- Day 12 ----------------------------------
+# Exercise: rewriting the loop below as a list comprehension
+ref_indices = {
+    "milk": 1, "butter": 2, "coffee": 3, "water": 4, "tea": 5, "bread": 6
+}
+products = ["tea", "bread", "water"]
